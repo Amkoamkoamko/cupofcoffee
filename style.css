@@ -30,6 +30,7 @@
 		src: url(fonts/Flaticon-3.html#Flaticon) format("svg")
 	}
 }
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -27041,4 +27042,8 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 }
 .flaticon-tool:before {
 	content: "\f104"
+}
+
+#main_menu.nav.active {
+	color: #ffb600;
 }
