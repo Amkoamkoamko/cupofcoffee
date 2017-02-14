@@ -21859,7 +21859,8 @@ section .main_title {
 	font-weight: 500;
 	display: block
 }
-/*.gradient_overlay {
+		/*Overlay beginning*/
+.gradient_overlay {
 	position: relative
 }
 .gradient_slider .slotholder:after, .gradient_overlay:after {
@@ -21870,21 +21871,23 @@ section .main_title {
 	left: 0;
 	top: 0;
 	pointer-events: none;
-	background: rgba(147, 0, 17, .75);
-	background: -webkit-gradient(left top, right bottom, color-stop(0, rgba(64, 97, 237, .5)), color-stop(100%, rgba(86, 20, 147, .5)));
-	background: -webkit-linear-gradient(145deg, rgba(147, 0, 17, .5) 0, rgba(86, 20, 147, .5) 100%);
-	background: -webkit-linear-gradient(315deg, rgba(147, 0, 17, .5) 0, rgba(86, 20, 147, .5) 100%);
-	background: linear-gradient(135deg, rgba(147, 0, 17, .5) 0, rgba(86, 20, 147, .5) 100%);
+	background: rgba(20, 20, 20, .8);
+	background: -webkit-gradient(left top, right bottom, color-stop(0, rgba(20, 20, 20, .9)), color-stop(100%, rgba(86, 20, 147, .5)));
+	background: -webkit-linear-gradient(145deg, rgba(20, 20, 20, .9) 0, rgba(20, 20, 20, .9) 100%);
+	background: -webkit-linear-gradient(315deg, rgba(20, 20, 20, .9) 0, rgba(20, 20, 20, .9) 100%);
+	background: linear-gradient(135deg, rgba(20, 20, 20, .6) 0, rgba(20, 20, 20, .5) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#930011', endColorstr='#561493', GradientType=1)
 }
 .gradient_overlay.opac8:after {
-	background: rgba(147, 0, 17, .8);
+	background: rgba(20, 20, 20, .5);
 	background: -webkit-gradient(left top, right bottom, color-stop(0, rgba(64, 97, 237, .8)), color-stop(100%, rgba(86, 20, 147, .5)));
 	background: -webkit-linear-gradient(145deg, rgba(147, 0, 17, .8) 0, rgba(86, 20, 147, .8) 100%);
 	background: -webkit-linear-gradient(315deg, rgba(147, 0, 17, .8) 0, rgba(86, 20, 147, .8) 100%);
 	background: linear-gradient(135deg, rgba(147, 0, 17, .8) 0, rgba(86, 20, 147, .8) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#930011', endColorstr='#561493', GradientType=1)
-}*/
+}
+		/*Overlay ending*/
+
 .dotted_overlay:before {
 	content: '';
 	background: url(images/icons/xgridtile.png.pagespeed.ic.jHoNokq0WL.png);
