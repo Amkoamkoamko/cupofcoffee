@@ -20928,7 +20928,7 @@ button {
 .main_title.a_right:after {
 	margin-right: 0
 }
-.main_title.mt_wave:after {
+/*.main_title.mt_wave:after {
 	background: url(images/icons/wave.svg);
 	opacity: .5
 }
@@ -20943,7 +20943,7 @@ button {
 }
 .main_title.mt_wave.mt_white:after {
 	background: url(images/icons/wave_white.svg)
-}
+}*/
 .main_description {
 	margin-bottom: 50px
 }
@@ -22783,8 +22783,8 @@ footer.dark {
 	color: #aaa
 }
 footer .inner {
-	padding-top: 50px;
-	padding-bottom: 30px
+	padding-top: 0px;
+	padding-bottom: 0px
 }
 footer .inner {
 	border-bottom: 1px solid #f5f5f5
@@ -22793,7 +22793,7 @@ footer.dark .inner {
 	border-bottom: none
 }
 footer .widget {
-	padding-bottom: 20px
+	padding-bottom: 0px
 }
 footer .widget h5 {
 	color: #a1b1c1;
@@ -22815,7 +22815,9 @@ footer .about p {
 	margin-top: 8px
 }
 footer .logo {
-	margin-bottom: 22px
+	padding-top: 20px;
+	padding-bottom: 0px;
+	
 }
 footer .blog_posts, footer .useful_links, address {
 	padding-top: 15px
