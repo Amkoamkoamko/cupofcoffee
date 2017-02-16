@@ -21612,9 +21612,9 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 /*.transparent #main_menu .navbar-nav li a {
 	color: #fff
 } Aktivna klasa*/ 
-.transparent.nav_bg #main_menu .navbar-nav li a {
+/*.transparent.nav_bg #main_menu .navbar-nav li a {
 	color: #a1b1c1
-}
+}*/
 .transparent.nav_bg #main_menu .navbar-nav li.active a.dropdown-toggle, .transparent #main_menu .navbar-nav li.active a.dropdown-toggle {
 	color: #ffb600
 }
