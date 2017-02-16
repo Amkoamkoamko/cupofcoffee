@@ -27054,3 +27054,16 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	padding-bottom: 10px;
 	
 }
+
+.footKontakt {
+	padding-left: 20px;
+}
+
+.snIcon {
+	padding: 5px;
+}
+
+#mapaKont {
+	width: 100%;
+	height: 400px;
+}
