@@ -20890,7 +20890,8 @@ button {
 	color: #fff
 }
 .main_title {
-	position: relative
+	position: relative;
+	text-align: center;
 }
 .main_title h2 {
 	font-size: 2.2em;
@@ -20900,7 +20901,8 @@ button {
 	color: #a1b1c1;
 	font-weight: 700;
 	line-height: 1.2;
-	letter-spacing: .5px
+	letter-spacing: .5px;
+	
 }
 .main_title.mt_dark h2 {
 	color: #444
