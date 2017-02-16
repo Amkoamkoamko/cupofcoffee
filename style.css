@@ -11615,8 +11615,8 @@ img.tp-slider-alternative-image {
 }
 .tp-dottedoverlay {
 	background-repeat: repeat;
-	width: 100%;
-	z-index: 3
+	/*width: 100%;*/
+	z-index: 1;
 }
 .tp-dottedoverlay.twoxtwo {
 	background: url(revolution/assets/xgridtile.png.pagespeed.ic.jHoNokq0WL.png)
@@ -20948,7 +20948,7 @@ button {
 	margin-bottom: 50px
 }
 .main_description {
-	font-size: 1em;
+	font-size: 1.3em;
 	line-height: 1.6
 }
 .main_description.a_center {
