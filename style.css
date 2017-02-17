@@ -24474,7 +24474,8 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	}
 	.navbar-collapse {
 		border-top: 1px solid transparent;
-		box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+		
 	}
 	.navbar-collapse.collapse {
 		display: none !important
@@ -27089,4 +27090,7 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
  	-moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+ }
+ .vise {
+ 	padding-bottom: 50px;
  }
