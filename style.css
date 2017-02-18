@@ -24589,10 +24589,13 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	#main_menu.mobile_menu .navbar-nav li:hover, #main_menu.mobile_menu .navbar-nav .open .dropdown-toggle {
 		background: #f5f5f5
 	}
+
+	
 	#main_menu.mobile_menu .navbar-nav li a {
 		padding: 12px 30px;
-		color: #a1b1be
+		
 	}
+	
 	#main_menu.mobile_menu .navbar-nav li a:hover {
 		color: #1dc1f8
 	}
