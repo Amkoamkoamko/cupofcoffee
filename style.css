@@ -22898,10 +22898,11 @@ footer.dark .subfooter {
 	color: #aaa
 }
 footer .copyrights {
-	line-height: 3em
+	line-height: 3em;
+
 }
 footer .subfooter .social_media {
-	float: right;
+	
 	padding: 2px 0
 }
 footer .subfooter .social_media a {
@@ -27140,4 +27141,8 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
  }
  .nagrada caption {
  	display: block;
+ }
+
+ .socialFooter {
+ 	float: right;
  }
