@@ -21754,7 +21754,8 @@ section {
 	max-width: 100%
 }
 section.white_bg {
-	background: #fff
+	background: #fff;
+	padding-bottom: 0px;
 }
 section.lightgrey_bg {
 	background: #f5f5f5;
