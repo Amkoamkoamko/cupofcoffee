@@ -22506,19 +22506,7 @@ section .main_title {
 	transform: rotate(135deg);
 	z-index: 9
 }
-#gallery_style_2 .gs2_item:before {
-	content: "";
-	display: block;
-	position: absolute;
-	border: 50px solid transparent;
-	border-top: 50px solid #fefefe;
-	top: -70px;
-	left: -70px;
-	box-shadow: 0 -7px 6px -9px black;
-	-webkit-transform: rotate(135deg);
-	transform: rotate(135deg);
-	z-index: 9
-}
+
 #about {
 	height: 100%;
 	padding: 10px 20px;
