@@ -27151,3 +27151,7 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	color: #ffb600;
 
 }
+.mainContent {
+	margin-left: 5%;
+	margin-right: 5%;
+}
