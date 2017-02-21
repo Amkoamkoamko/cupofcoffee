@@ -27136,7 +27136,7 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	background-color: #fff;
 	border:  1px solid #eee;
 	width: 280px;
-	height: 500px;
+	height: 340px;
 	margin: 10px;
 	padding: 10px;
 	
@@ -27144,6 +27144,7 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 
 .oNagradi {
 	padding-top: 15px;
+	font-size: 80%;
 }
 .oNagradi h2 {
 	color: #ffb600;
