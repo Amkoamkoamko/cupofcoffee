@@ -20727,8 +20727,8 @@ button {
 	padding: 0 5px
 }
 .button.btn_blue {
-	background: #1dc1f8;
-	border-color: #1dc1f8;
+	background: #b46137;
+	border-color: #fff;
 	color: #fff
 }
 .button.btn_yellow {
@@ -21956,7 +21956,7 @@ section .main_title {
 	font-size: 1em;
 	text-align: center;
 	padding: 4px 12px;
-	background: #444;
+	background: #b46137;
 	border-radius: 0 0 10px 0;
 	color: #fff;
 	z-index: 9;
