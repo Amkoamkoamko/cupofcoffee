@@ -24448,6 +24448,9 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	.container {
 		width: 80%;
 	}
+	.jelovnik {
+		width: 70%;
+	}
 	#blog .blog_item .main {
 		padding: 0;
 		padding-top: 10px
