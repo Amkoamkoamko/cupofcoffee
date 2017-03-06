@@ -24018,6 +24018,19 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	border-radius: 2px;
 	cursor: pointer
 }
+#room_page {
+	padding-top: 60px;
+
+}
+#room_page h2 {
+	color: #ffb600;
+	padding-bottom: 20px;
+	font-size: 200%;
+}
+#room_page p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
 #room_page .slider #slider-larg {
 	padding: 4px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
