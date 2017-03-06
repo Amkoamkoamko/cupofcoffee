@@ -24446,7 +24446,7 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 }
 @media only screen and (min-width:1200px) {
 	.container {
-		width: 1200px
+		width: 80%;
 	}
 	#blog .blog_item .main {
 		padding: 0;
