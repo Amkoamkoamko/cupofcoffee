@@ -21904,7 +21904,7 @@ section .main_title {
 	background: -webkit-gradient(left top, right bottom, color-stop(0, rgba(20, 20, 20, .1)), color-stop(100%, rgba(86, 20, 147, .1)));
 	background: -webkit-linear-gradient(145deg, rgba(20, 20, 20, .1) 0, rgba(20, 20, 20, .1) 100%);
 	background: -webkit-linear-gradient(315deg, rgba(20, 20, 20, .1) 0, rgba(20, 20, 20, .1) 100%);
-	background: linear-gradient(135deg, rgba(20, 20, 20, .1) 0, rgba(20, 20, 20, .2) 100%);
+	background: linear-gradient(135deg, rgba(20, 20, 20, .0) 0, rgba(20, 20, 20, .0) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#930011', endColorstr='#561493', GradientType=1)
 }
 
