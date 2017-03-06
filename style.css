@@ -1433,6 +1433,7 @@ pre code {
 .container {
 	padding-right: 15px;
 	padding-left: 15px;
+	padding-bottom: 15px;
 	margin-right: auto;
 	margin-left: auto
 }
@@ -27157,4 +27158,8 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 .mainContent {
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+.restorani {
+	padding-top: 200px;
 }
