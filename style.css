@@ -3717,10 +3717,17 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
     display: inline-block;
     }
     .g_item.col-md-3.col-sm-6 {
-    	 width: 49%;
+    	 width: 47%;
     	display: inline-block;
+    	
     }
 
+    .grid.gallery_items.image-gallery {
+    	margin-left: 5%;
+    }
+	.row.image-gallery{
+		margin-left: 1%;
+	}
     
 	.navbar-nav .open .dropdown-menu {
 		position: static;
@@ -19745,7 +19752,8 @@ img.mfp-img {
 }
 * {
 	margin: 0;
-	padding: 0
+	padding: 0;
+
 }
 html {
 	height: 100%
