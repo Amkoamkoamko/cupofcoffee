@@ -3797,6 +3797,9 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 		padding-top: 15px;
 		padding-bottom: 15px
 	}
+	 .page_title.gradient_overlay {
+    	margin-left: -500px;
+    }
 }
 .navbar-form {
 	padding: 10px 15px;
