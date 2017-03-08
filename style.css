@@ -27168,7 +27168,7 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
  	
  	
  }
-
+@media (min-width:768px) {
 .nagrada {
 	vertical-align: top;
 	display: inline-block;
@@ -27179,17 +27179,40 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	height: 340px;
 	margin: 10px;
 	padding: 10px;
-	
 }
-
 .oNagradi {
 	padding-top: 15px;
 	font-size: 80%;
 }
 .oNagradi h2 {
 	color: #ffb600;
+}
+}
+
+@media (max-width:767px) {
+	.nagrada {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	width: 40%;	
+	margin: 10px;
+	padding: 10px;
+}
+.PicNagrada{
+	width: 100px;
 
 }
+.oNagradi {
+	padding-top: 15px;
+	font-size: 60%;
+}
+.oNagradi h2 {
+	color: #ffb600;
+}
+}
+
+
+
 }
 .mainContent {
 	margin-left: 5%;
