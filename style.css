@@ -3712,6 +3712,9 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	line-height: 20px
 }
 @media (max-width:767px) {
+	body {
+		font-size: 90%;
+	}
 	div .col-md-3.col-sm-6.mt20.mb20 {
     width: 49%;
     display: inline-block;
@@ -3739,6 +3742,23 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
     }
     .menu_item .info {
     	padding-right: 1px;
+    }
+
+    footer .col-md-3.col-sm-6.widget{
+    	padding-left: 20px;
+
+    }
+    .socialFooter {
+    	margin-right: 55px;
+
+    }
+    .contact-info.upper {
+    	margin-left: 20px;
+    }
+    .mainContent {
+    	font-size: 90%;
+    	margin-left: 10px;
+    	
     }
 	.navbar-nav .open .dropdown-menu {
 		position: static;
