@@ -3730,10 +3730,15 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	}
     .container.jelovnik {
     	font-size: 70%;
+    	margin-left: 10px;
+    	padding-right: 2px;
     }
     .menu_item.menu_section{
     	padding-bottom: 5px;
     	margin-bottom: 5px;
+    }
+    .menu_item .info {
+    	padding-right: 1px;
     }
 	.navbar-nav .open .dropdown-menu {
 		position: static;
