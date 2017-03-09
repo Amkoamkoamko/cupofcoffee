@@ -27212,9 +27212,9 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	vertical-align: top;
 	display: inline-block;
 	text-align: center;
-	/*background-color: #fff;
-	border:  1px solid #eee;*/
-	width: 170px;
+	background-color: #fff;
+	border:  1px solid #eee;
+	width: 180px;
 	height: 300px;
 	margin: 10px;
 	padding: 10px;
