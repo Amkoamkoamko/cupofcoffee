@@ -27212,15 +27212,19 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	vertical-align: top;
 	display: inline-block;
 	text-align: center;
-	background-color: #fff;
-	border:  1px solid #eee;
-	width: 280px;
-	height: 340px;
+	/*background-color: #fff;
+	border:  1px solid #eee;*/
+	width: 170px;
+	height: 300px;
 	margin: 10px;
 	padding: 10px;
 }
+.PicNagrada{
+	height: 80px;
+	
+	}
 .oNagradi {
-	padding-top: 15px;
+	padding-top: 10px;
 	font-size: 80%;
 }
 .oNagradi h2 {
@@ -27254,7 +27258,7 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	padding: 10px;
 }
 .PicNagrada{
-	width: 100px;
+	height: 100px;
 
 }
 .oNagradi {
