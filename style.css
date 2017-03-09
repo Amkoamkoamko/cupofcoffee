@@ -5706,7 +5706,57 @@ button.close {
 		display: inline-block !important
 	}
 }
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width:1273px) and (max-width:1319px) {
+	.nagrada {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	background-color: #fff;
+	border:  1px solid #eee;
+	width: 180px;
+	height: 250px;
+	margin: 5px;
+	padding: 5px;
+}
+.PicNagrada{
+	height: 80px;
+	
+	}
+.oNagradi {
+	padding-top: 10px;
+	font-size: 70%;
+}
+.oNagradi h2 {
+	color: #ffb600;
+}
+}
+
+
+@media (min-width:992px) and (max-width:1273px) {
+	.nagrada {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	background-color: #fff;
+	border:  1px solid #eee;
+	width: 150px;
+	height: 250px;
+	margin: 5px;
+	padding: 5px;
+}
+.PicNagrada{
+	height: 80px;
+	
+	}
+.oNagradi {
+	padding-top: 10px;
+	font-size: 70%;
+}
+.oNagradi h2 {
+	color: #ffb600;
+}
+
+
 	.visible-md {
 		display: block !important
 	}
@@ -5729,7 +5779,7 @@ button.close {
 		display: inline-block !important
 	}
 }
-@media (min-width:1200px) {
+@media (min-width:1320px) and (max-width:1557px)  {   
 	.nagrada {
 	vertical-align: top;
 	display: inline-block;
@@ -5752,6 +5802,58 @@ button.close {
 .oNagradi h2 {
 	color: #ffb600;
 }
+}
+
+@media (min-width:1558px) and (max-width:1728px) { /*dodati vece od 1729 */
+	.nagrada {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	background-color: #fff;
+	border:  1px solid #eee;
+	width: 200px;
+	height: 250px;
+	margin: 10px;
+	padding: 10px;
+}
+.PicNagrada{
+	height: 80px;
+	
+	}
+.oNagradi {
+	padding-top: 10px;
+	font-size: 77%;
+}
+.oNagradi h2 {
+	color: #ffb600;
+}
+}
+@media (min-width:1728px){
+	.nagrada {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	background-color: #fff;
+	border:  1px solid #eee;
+	width: 230px;
+	height: 250px;
+	margin: 10px;
+	padding: 10px;
+}
+.PicNagrada{
+	height: 80px;
+	
+	}
+.oNagradi {
+	padding-top: 10px;
+	font-size: 77%;
+}
+.oNagradi h2 {
+	color: #ffb600;
+}
+}
+@media (min-width:1200px) {
+	
 
 
 	.visible-lg {
@@ -5788,10 +5890,10 @@ button.close {
 	text-align: center;
 	background-color: #fff;
 	border:  1px solid #eee;
-	width: 120px;
+	width: 130px;
 	height: 250px;
-	margin: 10px;
-	padding: 10px;
+	margin: 5px;
+	padding: 5px;
 }
 .PicNagrada{
 	height: 80px;
@@ -5799,7 +5901,7 @@ button.close {
 	}
 .oNagradi {
 	padding-top: 10px;
-	font-size: 77%;
+	font-size: 70%;
 }
 .oNagradi h2 {
 	color: #ffb600;
@@ -27288,7 +27390,8 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 }
 .oNagradi {
 	padding-top: 15px;
-	font-size: 60%;
+	font-size: 70%;
+	font-weight: bold;
 }
 .oNagradi h2 {
 	color: #ffb600;
