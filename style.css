@@ -23101,7 +23101,7 @@ footer.dark .subfooter .social_media a {
 	padding-left: 35px
 }
 .sidebar .widget h4:before {
-	background: #1dc1f8;
+	background: #f88e1d;
 	width: 18px;
 	height: 18px;
 	border-radius: 2px;
@@ -23402,7 +23402,7 @@ footer.dark .subfooter .social_media a {
 	color: #a9a9a9
 }
 .blog_post .details p {
-	font-size: 1em;
+	font-size: 1.05em;
 	line-height: 1.6
 }
 .blog_post .details .meta_post {
@@ -27321,4 +27321,10 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 	color: #a1b1c1;
 	text-transform: lowercase;
 	padding-bottom: 10px;
+}
+
+
+.latest_posts iframe{
+	width: 120px;
+	height: 62px;
 }
