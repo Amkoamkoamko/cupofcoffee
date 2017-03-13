@@ -23036,6 +23036,15 @@ footer .widget a {
 }
 footer .widget a:hover {
 	color: #777;
+	cursor: default;
+}
+.noLink {
+	color: #a1b1c1;
+	text-decoration: none;
+}
+.noLink:hover, .noLink:active, .noLink:visited, .noLink:focus {
+	color: #a1b1c1;
+	cursor: default;
 }
 footer .about p {
 	margin-top: 8px
