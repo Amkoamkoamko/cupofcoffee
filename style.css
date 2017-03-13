@@ -23032,10 +23032,10 @@ footer.dark .widget h5 {
 	color: #fff
 }
 footer .widget a {
-	color: #929292
+	color: #777;
 }
 footer .widget a:hover {
-	color: #1dc1f8
+	color: #777;
 }
 footer .about p {
 	margin-top: 8px
@@ -27447,3 +27447,4 @@ border-radius: 10px;
 border-radius: 10px;
 background: #ccc;  
 }
+
