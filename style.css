@@ -1443,6 +1443,14 @@ pre code {
 	}
 }
 @media (min-width:992px) {
+	#error404_fullscreen_page .error_number {
+	font-size: 200px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.5;
+	opacity: .3
+}
 	.container {
 		width: 970px
 	}
@@ -14700,6 +14708,51 @@ body.rtl .tp-kbimg {
 .metis.tp-tabs:hover:before {
 	width: 118px
 }
+
+@media (min-width:641px) and (max-width:991px){
+
+	.error_number {
+	font-size: 150px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.5;
+	opacity: .3
+}
+}
+
+@media (min-width:481px) and (max-width:640px){
+
+	.error_number {
+	font-size: 100px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.5;
+	opacity: .3
+}
+}
+@media (min-width:361px) and (max-width:480px){
+
+	.error_number {
+	font-size: 80px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.5;
+	opacity: .3
+}
+}
+@media (max-width:360px) {
+	.error_number {
+	font-size: 60px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.5;
+	opacity: .3
+}
+}
 @media (max-width:499px) {
 	.metis.tp-tabs:before {
 		background: rgba(0, 0, 0, .75)
@@ -23407,14 +23460,7 @@ footer.dark .subfooter .social_media a {
 	top: 18%;
 	z-index: 9
 }
-#error404_fullscreen_page .error_number {
-	font-size: 200px;
-	text-align: center;
-	font-weight: 600;
-	color: #fff;
-	line-height: 1.5;
-	opacity: .3
-}
+
 #error404_fullscreen_page .content_title .c_inner .c_title {
 	color: #fff
 }
