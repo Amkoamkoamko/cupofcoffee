@@ -1446,6 +1446,21 @@ pre code {
 	.container {
 		width: 970px
 	}
+	#error404_page .error_number {
+	font-size: 150px;
+	text-align: center;
+	font-weight: 600;
+	color: #1dc1f8;
+	line-height: 1.5
+}
+#error404_fullscreen_page .error_number {
+	font-size: 200px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.5;
+	opacity: .3
+}
 }
 @media (min-width:1200px) {
 	.container {
@@ -3712,6 +3727,14 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	line-height: 20px
 }
 @media (max-width:767px) {
+	.error_number {
+		font-size: 60px;
+		text-align: center;
+		font-weight: 600;
+		color: #fff;
+		line-height: 1.5;
+		opacity: .3
+	}
 	body {
 		font-size: 90%;
 	}
@@ -5683,7 +5706,15 @@ button.close {
 		display: inline-block !important
 	}
 }
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:460px) and (max-width:991px) {
+	.error_number {
+		font-size: 100px;
+		text-align: center;
+		font-weight: 600;
+		color: #fff;
+		line-height: 1.5;
+		opacity: .3
+	}
 	.visible-sm {
 		display: block !important
 	}
@@ -23388,13 +23419,7 @@ footer.dark .subfooter .social_media a {
 	min-height: 600px;
 	padding-top: 50px
 }
-#error404_page .error_number {
-	font-size: 150px;
-	text-align: center;
-	font-weight: 600;
-	color: #1dc1f8;
-	line-height: 1.5
-}
+
 #error404_fullscreen_page {
 	height: 100%;
 	background: url(images/x404_bg.jpg.pagespeed.ic.GXUtQaxu3W.jpg);
@@ -23407,14 +23432,7 @@ footer.dark .subfooter .social_media a {
 	top: 18%;
 	z-index: 9
 }
-#error404_fullscreen_page .error_number {
-	font-size: 200px;
-	text-align: center;
-	font-weight: 600;
-	color: #fff;
-	line-height: 1.5;
-	opacity: .3
-}
+
 #error404_fullscreen_page .content_title .c_inner .c_title {
 	color: #fff
 }
