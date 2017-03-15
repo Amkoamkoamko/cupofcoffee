@@ -23687,7 +23687,7 @@ footer.dark .subfooter .social_media a {
 	text-transform: uppercase;
 	color: #fff
 }
-#map {
+/*#map {
 	padding: 0
 }
 #map #google-map {
@@ -23710,7 +23710,13 @@ footer.dark .subfooter .social_media a {
 }
 #google-map .openmap-btn:hover {
 	background-color: #f7f7f7
-}
+} */
+
+ #map {
+   width: 100%;
+   height: 350px;
+   background-color: grey;
+   }
 #contact-form-page {
 	margin-top: 30px
 }
