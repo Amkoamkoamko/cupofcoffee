@@ -24035,6 +24035,9 @@ footer.dark .subfooter .social_media a {
 	background-color: #fff;
 	padding-right: 5px
 }
+.name:hover {
+	color: #ffb600;
+}
 .menu_item .title span.price {
 	color: #ffb600
 }
