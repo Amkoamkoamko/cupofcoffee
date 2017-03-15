@@ -1443,17 +1443,7 @@ pre code {
 	}
 }
 @media (min-width:992px) {
-	.container {
-		width: 970px
-	}
-	#error404_page .error_number {
-	font-size: 150px;
-	text-align: center;
-	font-weight: 600;
-	color: #1dc1f8;
-	line-height: 1.5
-}
-#error404_fullscreen_page .error_number {
+	#error404_fullscreen_page .error_number {
 	font-size: 200px;
 	text-align: center;
 	font-weight: 600;
@@ -1461,6 +1451,9 @@ pre code {
 	line-height: 1.5;
 	opacity: .3
 }
+	.container {
+		width: 970px
+	}
 }
 @media (min-width:1200px) {
 	.container {
@@ -3727,14 +3720,6 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	line-height: 20px
 }
 @media (max-width:767px) {
-	.error_number {
-		font-size: 60px;
-		text-align: center;
-		font-weight: 600;
-		color: #fff;
-		line-height: 1.5;
-		opacity: .3
-	}
 	body {
 		font-size: 90%;
 	}
@@ -5706,15 +5691,7 @@ button.close {
 		display: inline-block !important
 	}
 }
-@media (min-width:460px) and (max-width:991px) {
-	.error_number {
-		font-size: 100px;
-		text-align: center;
-		font-weight: 600;
-		color: #fff;
-		line-height: 1.5;
-		opacity: .3
-	}
+@media (min-width:768px) and (max-width:991px) {
 	.visible-sm {
 		display: block !important
 	}
@@ -14731,6 +14708,51 @@ body.rtl .tp-kbimg {
 .metis.tp-tabs:hover:before {
 	width: 118px
 }
+
+@media (min-width:641px) and (max-width:991px){
+
+	.error_number {
+	font-size: 150px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.5;
+	opacity: .3
+}
+}
+
+@media (min-width:481px) and (max-width:640px){
+
+	.error_number {
+	font-size: 100px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.5;
+	opacity: .3
+}
+}
+@media (min-width:361px) and (max-width:480px){
+
+	.error_number {
+	font-size: 80px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.5;
+	opacity: .3
+}
+}
+@media (max-width:360px) {
+	.error_number {
+	font-size: 60px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.5;
+	opacity: .3
+}
+}
 @media (max-width:499px) {
 	.metis.tp-tabs:before {
 		background: rgba(0, 0, 0, .75)
@@ -23419,7 +23441,13 @@ footer.dark .subfooter .social_media a {
 	min-height: 600px;
 	padding-top: 50px
 }
-
+#error404_page .error_number {
+	font-size: 150px;
+	text-align: center;
+	font-weight: 600;
+	color: #1dc1f8;
+	line-height: 1.5
+}
 #error404_fullscreen_page {
 	height: 100%;
 	background: url(images/x404_bg.jpg.pagespeed.ic.GXUtQaxu3W.jpg);
