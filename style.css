@@ -23397,7 +23397,7 @@ footer.dark .subfooter .social_media a {
 }
 #error404_fullscreen_page {
 	height: 100%;
-	background: url(images/mostic.jpg);
+	background: url(images/x404_bg.jpg.pagespeed.ic.GXUtQaxu3W.jpg);
 	background-size: cover;
 	background-position: center center;
 	padding: 0
@@ -23687,7 +23687,7 @@ footer.dark .subfooter .social_media a {
 	text-transform: uppercase;
 	color: #fff
 }
-#map {
+/*#map {
 	padding: 0
 }
 #map #google-map {
@@ -23710,7 +23710,13 @@ footer.dark .subfooter .social_media a {
 }
 #google-map .openmap-btn:hover {
 	background-color: #f7f7f7
-}
+} */
+
+ #map {
+   width: 100%;
+   height: 350px;
+   background-color: grey;
+   }
 #contact-form-page {
 	margin-top: 30px
 }
@@ -24028,6 +24034,9 @@ footer.dark .subfooter .social_media a {
 	overflow: hidden;
 	background-color: #fff;
 	padding-right: 5px
+}
+.name:hover {
+	color: #ffb600;
 }
 .menu_item .title span.price {
 	color: #ffb600
