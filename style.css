@@ -23338,13 +23338,13 @@ footer.dark .subfooter .social_media a {
 	padding: 7px 0
 }
 .sidebar .widget .categories li a, .sidebar .widget .archive li a {
-	color: #a1b1c1;
+	color: #9f9f9f;
 	display: list-item;
 	font-size: 1em;
 	font-weight: 600
 }
 .sidebar .widget .categories li a:hover, .sidebar .widget .archive li a:hover {
-	color: #1dc1f8
+	color: #ffb600
 }
 .sidebar .widget .categories li .num_posts, .sidebar .widget .archive li .num_posts {
 	width: 30px;
@@ -23383,11 +23383,11 @@ footer.dark .subfooter .social_media a {
 	margin-left: 10px
 }
 .sidebar .widget .latest_posts .latest_post .details h6 a {
-	color: #a1b1c1;
+	color: #9f9f9f;
 	font-weight: 600
 }
 .sidebar .widget .latest_posts .latest_post .details h6 a:hover {
-	color: #1dc1f8
+	color: #ffb600
 }
 .sidebar .widget .latest_posts .latest_post .details span {
 	display: block;
