@@ -3804,10 +3804,19 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 		background-image: none
 	}
 }
-@media (min-width:142px) {
+@media (max-width:1366px) {
 	p {
-		font-size: 120%;
-	}
+	font-size: 1.0em;
+	line-height: 1.6;
+	margin: 10px 0
+}
+}
+@media (min-width:1367px) {
+	p {
+	font-size: 1.3em;
+	line-height: 1.6;
+	margin: 10px 0
+}
 }
 @media (min-width:1421px) and (max-width:1680px){
 	 .page_title.gradient_overlay {
@@ -20189,11 +20198,7 @@ h6 {
 	line-height: 1em;
 	font-family: 'Lato', sans-serif
 }
-p {
-	font-size: 1.0em;
-	line-height: 1.6;
-	margin: 10px 0
-}
+
 .dropcap:first-letter {
 	float: left;
 	color: #1dc1f8;
