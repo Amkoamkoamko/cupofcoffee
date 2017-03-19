@@ -3730,7 +3730,8 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	body {
 		font-size: 90%;
 	}
-	div .col-md-3.col-sm-6.mt20.mb20 {
+	div .col-md-3.col-sm-6.mt20.mb20, div .col-md-2.col-sm-6.mt20.mb20 {
+
     width: 49%;
     display: inline-block;
     }
@@ -3739,12 +3740,15 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
     	display: inline-block;
     	
     }
+    .gridMobile.row {
 
+    	margin-left: 5%;
+    }
     .grid.gallery_items.image-gallery {
     	margin-left: 5%;
     }
 	.row.image-gallery{
-		width: 100%
+		width: 95%
 	}
     .container.jelovnik {
     	width: 95%;
