@@ -27443,6 +27443,7 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 #mapaKont {
 	width: 100%;
 	height: 400px;
+	margin-left: 5px;
 }
 
 .PicLink {
