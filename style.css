@@ -19908,6 +19908,7 @@ img.mfp-img {
 .owl-carousel .owl-stage-outer {
 	position: relative;
 	overflow: hidden;
+	max-height: 480px !important;
 	-webkit-transform: translate3d(0, 0, 0)
 }
 .owl-carousel .owl-item {
