@@ -4621,6 +4621,9 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 .media-right, .media>.pull-right {
 	padding-left: 10px
 }
+.media-left img{
+	vertical-align: text-bottom;
+}
 .media-left, .media>.pull-left {
 	padding-right: 10px
 }
