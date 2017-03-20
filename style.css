@@ -23501,7 +23501,7 @@ footer.dark .subfooter .social_media a {
 	color: #1dc1f8;
 	line-height: 1.5
 }
-#error404_fullscreen_page {
+#error404_fullscreen_page{
 	height: 100%;
 	background: url(images/x404_bg.jpg.pagespeed.ic.GXUtQaxu3W.jpg);
 	background-size: cover;
@@ -23509,7 +23509,7 @@ footer.dark .subfooter .social_media a {
 	padding: 0
 }
 
-#error404_fullscreen_page.myClass {
+.myClass #error404_fullscreen_page {
 	height: 100%;
 	background: url(images/SlavisaZivkovicRakija.jpg);
 	background-size: cover;
