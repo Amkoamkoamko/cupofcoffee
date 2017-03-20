@@ -3726,35 +3726,45 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	padding-bottom: 10px;
 	line-height: 20px
 }
+
+@media (max-width:991px) {
+	div .col-md-3.col-sm-6.mt20.mb20 {
+
+    width: 49%;
+    display: inline-block;
+}
+	div .col-md-2.col-sm-6.mt20.mb20 {
+		width: 32%;
+		display: inline-block;
+	}
+	 .gridMobile.row {
+
+    	margin-left: 5%;
+    }
+      .container.jelovnik {
+    	width: 95%;
+    	font-size: 75%;
+    	
+    }
+}
 @media (max-width:767px) {
 	body {
 		font-size: 90%;
 	}
-	div .col-md-3.col-sm-6.mt20.mb20, div .col-md-2.col-sm-6.mt20.mb20 {
-
-    width: 49%;
-    display: inline-block;
-    }
+	
     .g_item.col-md-3.col-sm-6 {
     	 width: 47%;
     	display: inline-block;
     	
     }
-    .gridMobile.row {
-
-    	margin-left: 5%;
-    }
+   
     .grid.gallery_items.image-gallery {
     	margin-left: 5%;
     }
 	.row.image-gallery{
 		width: 95%
 	}
-    .container.jelovnik {
-    	width: 95%;
-    	font-size: 75%;
-    	
-    }
+  
     .menu_item .col-lg-8.col-md-6 {
     	padding-right: 0px;
     }
