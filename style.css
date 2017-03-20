@@ -19908,6 +19908,7 @@ img.mfp-img {
 .owl-carousel .owl-stage-outer {
 	position: relative;
 	overflow: hidden;
+	max-width: 620px !important;
 	-webkit-transform: translate3d(0, 0, 0)
 }
 .owl-carousel .owl-item {
@@ -27448,6 +27449,7 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 
 .PicLink {
 	background-color: black;
+	max-width: 620px !important;
 }
 .PicLink img {
 	
