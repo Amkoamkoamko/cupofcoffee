@@ -23509,7 +23509,7 @@ footer.dark .subfooter .social_media a {
 	padding: 0
 }
 
-.myClass #error404_fullscreen_page {
+#error404_fullscreen_page.myClass {
 	height: 100%;
 	background: url(images/SlavisaZivkovicRakija.jpg);
 	background-size: cover;
