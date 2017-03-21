@@ -1437,8 +1437,11 @@ pre code {
 	margin-right: auto;
 	margin-left: auto
 }
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width: 991px) {
 	.container {
+		width: 750px
+	}
+	.container.myClass {
 		width: 750px
 	}
 }
@@ -21068,8 +21071,8 @@ button {
 	border-color: #e6eff2
 }
 .button.btn_blue:hover, .button.btn_blue:active, .button.btn_blue:focus {
-	background: #2c88c0;
-	border-color: #2c88c0
+	background: #ffb600;
+	border-color: #ffb600
 }
 .button.btn_yellow:hover, .button.btn_yellow:active, .button.btn_yellow:focus {
 	background: #efac14;
@@ -24807,7 +24810,10 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 		
 	}
 }
-@media only screen and (max-width:1366px) {
+@media only screen and (min-width: 1200px) and (max-width:1366px) {
+	.container {
+		width: 80%;
+	}
 	.container {
 		width: 80%;
 	}
