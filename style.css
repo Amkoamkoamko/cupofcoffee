@@ -24798,9 +24798,18 @@ figure:hover .room_list_slider .owl-nav .owl-prev, figure:hover .room_list_slide
 		position: relative
 	}
 }
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1367px) {
 	.container {
-		width: 70%;
+		width: 1200px;
+	}
+	.container.myClass {
+		width: 1200px;
+		
+	}
+}
+@media only screen and (max-width:1366px) {
+	.container {
+		width: 80%;
 	}
 	.container.myClass {
 		width: 1200px;
